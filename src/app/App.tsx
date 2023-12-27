@@ -8,14 +8,16 @@ import Reservation from "../pages/Reservation";
 import Cart from "../pages/Cart";
 export default function App() {
   return (
-    <Routes>
-      <Route element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="menu" element={<Menu />} />
-        <Route path="reservation" element={<Reservation />} />
-        <Route path="cart" element={<Cart />} />
-      </Route>
-    </Routes>
+    <main className="h-screen">
+      <Routes>
+        <Route element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="menu" element={<Menu />} />
+          <Route path="reservation" element={<Reservation />} />
+          <Route path="cart" element={<Cart />} />
+        </Route>
+      </Routes>
+    </main>
   );
 }

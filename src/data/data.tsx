@@ -142,17 +142,17 @@ export const navbar = [
 export const specials = [
   {
     name: "Greek Salad",
-    price: `$${10}`,
+    price: 10,
     img: a,
   },
   {
     name: "Bruchetta",
-    price: `$${20}`,
+    price: 20,
     img: b,
   },
   {
     name: "Lemon Dessert",
-    price: `$${5}`,
+    price: 5,
     img: c,
   },
 ];

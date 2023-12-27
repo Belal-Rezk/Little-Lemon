@@ -35,6 +35,8 @@ export default function Hero({
       </article>
       <motion.img
         initial={{ x: 100, opacity: 0 }}
+        viewport={{ once: true }}
+        loading="lazy"
         animate={{
           x: 0,
           opacity: 1,

@@ -18,7 +18,7 @@ export default function Specials() {
             Order Online <FaBasketShopping />
           </Button>
         </div>
-        <div className="grid grid-cols-1 gap-5 lg:grid-cols-3 my-5 md:mb-20 md:mt-10">
+        <div className="grid grid-cols-1 gap-5 lg:grid-cols-3 my-5  md:mt-10">
           {specials.map((item, i) => (
             <Cards
               src={item.img}
