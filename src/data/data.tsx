@@ -387,3 +387,21 @@ export const menu = [
     ],
   },
 ];
+
+export const initialState = {
+  fname: "",
+  lname: "",
+  email: "",
+  pass: "",
+  date: "",
+  time: "",
+  diners: 1,
+  occasion: "",
+  tel: "",
+  cardname: "",
+  expdate: "",
+  cvv: Number("000"),
+  msg: "",
+  side: "",
+  confirm: false,
+};
